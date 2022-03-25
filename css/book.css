@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif; */
 
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
     
 .nav-bar .menu  button{
     padding: 6px 17px;
@@ -33,7 +33,7 @@ font-family: 'Poppins', sans-serif; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 100px;
  
 }
 }
