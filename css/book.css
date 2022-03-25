@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif; */
 
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
     
 .nav-bar .menu  button{
     padding: 6px 17px;
@@ -877,16 +877,17 @@ margin-top: px;
    margin-top: 12px;
   height:  30px;
   font-size: .7rem;
+    color:white;
   padding: 5px 12px;
   font-weight: 700;
   border: none;
   transition: All .1s;
-  background-color: rgba(223, 183, 52, 0.677);
+  background-color: rgba(223, 183, 52, 0.977);
 }
 
 .footer-two button:hover{
     transform: scale(1.1);
-    background-color: rgba(223, 183, 52, 0.977);;
+  
 }
 
 .footer-under{
