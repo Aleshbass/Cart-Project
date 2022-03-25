@@ -17,27 +17,6 @@ font-family: 'Poppins', sans-serif; */
 
 
 
-@media only screen and (max-width: 600px){
-    
-.nav-bar .menu  button{
-    padding: 6px 17px;
-    outline: none;
-    border: none;
-   
-    border: 1px solid white;
-    color: white;
-    background: none;
-    border-radius: 5px;
-    margin-top: 30px;
-    transition: .1s;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 100px;
- 
-}
-}
-
 body{
    
     height: 100vh;
@@ -224,7 +203,7 @@ position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 140px;
  
 }
 
@@ -877,17 +856,16 @@ margin-top: px;
    margin-top: 12px;
   height:  30px;
   font-size: .7rem;
-    color:white;
   padding: 5px 12px;
   font-weight: 700;
   border: none;
   transition: All .1s;
-  background-color: rgba(223, 183, 52, 0.977);
+  background-color: rgba(223, 183, 52, 0.677);
 }
 
 .footer-two button:hover{
     transform: scale(1.1);
-  
+    background-color: rgba(223, 183, 52, 0.977);;
 }
 
 .footer-under{
@@ -1006,7 +984,24 @@ height: auto;
 
 @media only screen and (min-width: 700px){
 
-
+    .nav-bar .menu  button{
+        padding: 6px 17px;
+        outline: none;
+        border: none;
+       
+        border: 1px solid white;
+        color: white;
+        background: none;
+        border-radius: 5px;
+       
+        margin-top: 30px;
+        transition: .1s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 190px;
+     
+    }
     :root{
         --maincolor: rgb(5, 5, 66);
         --main-font: 'Lato', 'Hind Siliguri', sans-serif;
@@ -1331,6 +1326,24 @@ strong{
         margin-left: 70px;
     }
 
+    .nav-bar .menu  button{
+        padding: 6px 17px;
+        outline: none;
+        border: none;
+       
+        border: 1px solid white;
+        color: white;
+        background: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: .1s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+     
+    }
+
  
     .img-section >.image-price{
         max-height: 65px;
@@ -1440,6 +1453,7 @@ strong{
         display: inline;
         height: 34px;
         margin-left: 10px;
+        color: white;
     }
 
     .footer-under{
