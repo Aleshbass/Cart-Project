@@ -1836,24 +1836,34 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.247);
 
 
 }
-
 #cart-display{
     position: relative;
 }
 #cart-display #after{
 
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    border: none;
+    border: 2px solid var(--maincolor);
     font-size: 1.1rem;
-    top: -19px;
+    top: -10px;
     border-radius: 50%;
-    right: -35px;
+    right: -24px;
     background-color: white;
     color: var(--maincolor);
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+#cart-display:hover #after{
+
+    background-color: var(--maincolor);
+    color: white;
+    border: 2px solid white;
+}
+#cart-display #after.active{
+    display: none;
 }
