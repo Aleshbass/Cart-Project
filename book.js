@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 
 
-
 let mymenubar= document.querySelector('#openbutton');
 const closetheButton= document.querySelector('.closebar');
 const menu= document.querySelector('.menu');
@@ -33,6 +32,7 @@ let total_price= document.querySelector('.title p#totalprice')
 let final_price= document.querySelector('.title p#finalprice')
 
 let price_one = document.querySelectorAll('.image-price')
+const viewcart_after= document.querySelector('#cart-display #after')
 
 
 const Add_to_cart= document.querySelectorAll('.image-title button')
@@ -324,6 +324,9 @@ itemcontainer.insertAdjacentHTML('beforeend', `
 function changeprice(){
 
     let number=  CART.updatetotal();
+    viewcart_after.innerHTML= number;
+        
+    
   let totalprice= (CART.updateprice()).toFixed(2);
   
   // calculate total price of product
