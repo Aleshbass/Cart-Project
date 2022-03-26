@@ -1836,3 +1836,24 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.247);
 
 
 }
+
+#cart-display{
+    position: relative;
+}
+#cart-display #after{
+
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    border: none;
+    font-size: 1.1rem;
+    top: -19px;
+    border-radius: 50%;
+    right: -35px;
+    background-color: white;
+    color: var(--maincolor);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
